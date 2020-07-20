@@ -32,6 +32,7 @@ const Business = () => {
 
       Promise.all(arrPromiseNews)
         .then(responses => {
+          console.log('business: ', responses);
           if (responses[0].status === 'ok') {
             let articles = responses.map(e => e.articles);
             setData(mergeNewData(articles))
