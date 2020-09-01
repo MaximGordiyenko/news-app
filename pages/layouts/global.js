@@ -10,5 +10,3 @@ display: flex;
 flex-direction: row;
 justify-content: space-evenly;
 `;
-
-export default {Nav, Title};

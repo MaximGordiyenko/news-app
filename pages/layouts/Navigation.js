@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import {Nav} from "../style/global";
+import Nav from "./global";
 
 const Navigation = () => {
   return (

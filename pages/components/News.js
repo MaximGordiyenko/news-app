@@ -1,5 +1,5 @@
 import React from "react";
-import {Title} from "../style/global";
+import {Title} from "../layouts/global";
 import Link from "next/link";
 
 const News = ({data}) => {
